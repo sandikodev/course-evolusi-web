@@ -78,4 +78,14 @@ Stack yang benar untuk startup dengan 2 developer yang bergerak cepat berbeda da
 
 ---
 
+## Keyakinan 8: Frontend, Backend, dan Infrastruktur Bukan Domain Terpisah — Mereka Adalah Lapisan dari Satu Pertanyaan yang Sama
+
+Keputusan di satu lapisan selalu mempengaruhi lapisan lain. Memilih React tanpa mempertimbangkan rendering strategy adalah keputusan yang belum selesai. Memilih SSR tanpa mempertimbangkan caching strategy adalah keputusan yang akan datang menagih. Memilih microservices tanpa mempertimbangkan operational complexity adalah keputusan yang akan menyiksa tim operations.
+
+Developer yang hanya bisa berpikir dalam satu lapisan akan selalu membuat keputusan yang terasa benar di lapisannya tapi menimbulkan masalah di lapisan lain.
+
+**Implikasi:** Course ini bergerak dari browser ke infrastruktur bukan karena semua developer harus ahli di semua lapisan — tapi karena memahami *hubungan antar lapisan* adalah yang membedakan developer yang bisa merekomendasikan arsitektur dari yang hanya bisa mengimplementasikannya.
+
+---
+
 *Kalau kamu setuju dengan semua keyakinan di atas, course ini akan mengkonfirmasi apa yang sudah kamu rasakan. Kalau kamu tidak setuju dengan beberapa, course ini akan menantangmu — dan itu justru lebih berharga.*
