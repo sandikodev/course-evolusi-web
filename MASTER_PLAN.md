@@ -134,9 +134,9 @@ Course Evolusi Web adalah **esai teknis yang terstruktur** — tidak ada kode ya
 | File/Chapter | Status | Catatan |
 |-------------|--------|---------|
 | MASTER_PLAN.md | ✅ Done | Dokumen ini |
-| MANIFEST.md | ⏳ Belum | Keyakinan-keyakinan dasar |
-| README.md | ⏳ Belum | Halaman depan |
-| bab-01/ | ⏳ Belum | Pra-SPA |
+| MANIFEST.md | ✅ Done | 7 keyakinan dasar yang menentukan suara course |
+| README.md | ✅ Done | Halaman depan + cara membaca |
+| bab-01/ | ✅ Done | Pra-SPA: HTML dokumen, CGI, AJAX, jQuery, warisan yang relevan |
 | bab-02/ | ⏳ Belum | Gelombang SPA pertama |
 | bab-03/ | ⏳ Belum | React & VDOM Revolution |
 | bab-04/ | ⏳ Belum | Fragmentasi ekosistem |
