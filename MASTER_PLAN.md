@@ -190,7 +190,7 @@ Course Evolusi Web adalah **esai teknis terstruktur** — tidak ada kode yang pe
 |-------------|--------|---------|
 | MASTER_PLAN.md | ✅ Done | Dokumen ini — direvisi 2026-11-19 |
 | MANIFEST.md | ✅ Done | 7 keyakinan dasar |
-| README.md | ⏳ Perlu update | Perbarui dengan promise dan judul baru |
+| README.md | ✅ Done | Halaman depan diperbarui — promise baru, struktur 26 bab |
 | bab-01/ | ✅ Done | Pra-SPA: HTML dokumen, CGI, AJAX, jQuery, warisan |
 | bab-02/ | ⏳ Belum | Gelombang SPA pertama |
 | bab-03/ | ⏳ Belum | React & VDOM Revolution |
