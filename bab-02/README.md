@@ -133,3 +133,16 @@ Dari rasa sakit inilah React lahir.
 Rasa sakit dengan state management dan performa DOM yang belum terselesaikan mendorong lahirnya pendekatan yang sangat berbeda dari Facebook — yang akan mengubah cara kita semua berpikir tentang UI.
 
 → [Bab 03: React dan Revolusi VDOM](../bab-03/README.md)
+
+
+---
+
+## Catatan Historis: Nasib Masing-Masing
+
+**Backbone.js** masih hidup tapi sudah tidak aktif dikembangkan. Ia "memenangkan" tempatnya di legacy codebase perusahaan-perusahaan yang membangun di era 2010-2014 dan tidak punya waktu untuk migrasi. Ini adalah pola yang akan berulang — framework tidak mati, mereka menjadi legacy.
+
+**AngularJS** officially end of life pada 31 Desember 2021 — Google berhenti support. Tapi masih ada jutaan aplikasi yang berjalan di AngularJS yang belum bisa atau belum mau migrasi. Inilah yang menciptakan niche "Angular 1 rescue specialist" yang masih ada sampai hari ini.
+
+**Ember.js** masih aktif dikembangkan dan punya komunitas yang loyal. Ia tidak pernah mencapai popularitas mainstream tapi tetap menjadi pilihan valid untuk tim yang menghargai stability dan convention-over-configuration. Versi terbaru (Ember 5+) sangat modern dan memiliki developer experience yang baik.
+
+**Pelajaran dari nasib ketiganya:** Popularitas pada puncaknya bukan prediktor survival. Yang menentukan apakah teknologi bertahan adalah apakah ada cukup banyak orang yang punya cost tinggi untuk meninggalkannya — bukan apakah ada orang yang ingin memakainya untuk project baru.

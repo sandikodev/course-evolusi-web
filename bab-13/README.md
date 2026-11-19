@@ -135,3 +135,25 @@ Untuk **admin dashboards, SaaS applications, internal tools** — user sudah men
 Rendering bukan hanya tentang framework — ini tentang di mana dan kapan HTML dibuat. SSR, islands, dan streaming adalah tiga pendekatan yang berbeda untuk pertanyaan yang sama.
 
 → [Bab 14: SSR, Islands, dan Streaming](../bab-14/README.md)
+
+
+---
+
+## Bagaimana Resumability Berhubungan dengan React Server Components
+
+Ada perbandingan menarik antara Qwik resumability dan React Server Components:
+
+| Aspek | Qwik Resumability | React Server Components |
+|-------|-------------------|------------------------|
+| Pendekatan | Serialisasi state ke HTML, lazy-load handler | Komponen server tidak dikirim ke browser |
+| Mekanisme | Event handler di atribut HTML | Server/client boundary yang eksplisit |
+| Zero JS | Ya (sampai ada interaksi) | Tidak (client components tetap butuh JS) |
+| Mental model | Semua resumable by default | Explicit 'use client' untuk interaktivitas |
+| Maturity | Qwik 1.0, production-ready | RSC mature di Next.js App Router |
+
+Keduanya menuju tujuan yang sama — mengurangi JavaScript yang dikirim ke browser — tapi dengan cara yang sangat berbeda.
+
+Qwik lebih radikal: *semua* kode adalah lazy-loaded sampai user berinteraksi.  
+RSC lebih pragmatis: *pilih* komponen mana yang perlu JavaScript (client) dan mana yang tidak (server).
+
+Untuk kebanyakan tim, RSC via Next.js App Router lebih mudah diadopsi karena mental model-nya lebih incremental. Qwik lebih powerful tapi membutuhkan rethinking cara menulis aplikasi dari dasar.

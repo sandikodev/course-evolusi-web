@@ -126,3 +126,22 @@ Setiap gelombang teknologi baru (mobile, edge computing, AI) membawa kebutuhan b
 Semua framework yang telah kita bahas berjalan di atas JavaScript. Sudah saatnya kita bedah substrat itu sendiri — bahasa yang tidak dirancang untuk peran yang ia mainkan hari ini.
 
 → [Bab 05: JavaScript — Substrate yang Tidak Direncanakan](../bab-05/README.md)
+
+
+---
+
+## Melihat Kembali: Apa yang Bisa Dipelajari dari Fragmentasi Ini
+
+Ada beberapa pelajaran yang baru bisa dilihat dengan jelas setelah bertahun-tahun:
+
+**1. Fragmentasi adalah bukti ekosistem yang sehat, bukan lemah.**
+Ekosistem yang hanya punya satu pilihan adalah ekosistem yang dikontrol oleh satu entitas. Fragmentasi berarti ada banyak perspektif, banyak eksperimen, dan banyak kesempatan untuk menemukan apa yang benar-benar bekerja untuk berbagai konteks.
+
+**2. "JavaScript fatigue" lebih akurat disebut "toolchain fatigue".**
+Framework inti (React, Vue, Angular) relatif stabil selama bertahun-tahun. Yang berubah dengan cepat adalah toolchain: bundler (Webpack → Rollup → Vite → Rolldown), transpiler (Babel → esbuild → SWC → Oxc), test runner, linter. Ini adalah masalah yang berbeda dengan masalah framework.
+
+**3. Pemenang di battle framework tidak selalu yang "terbaik secara teknis".**
+React menang bukan karena ia secara teknis superior dalam semua dimensi — ia menang karena timing, resources dari Facebook, ekosistem yang tumbuh cepat, dan mental model yang cukup intuitif untuk disebarluaskan. Pelajaran ini relevan setiap kali ada "framework baru yang lebih baik" yang muncul.
+
+**4. Setiap framework membawa budayanya.**
+React membawa budaya "compose everything from primitives." Angular membawa budaya "follow the opinionated path." Vue membawa budaya "pragmatic and approachable." Svelte membawa budaya "eliminate the runtime." Ketika kamu bergabung dengan ekosistem suatu framework, kamu juga bergabung dengan budayanya — dan ini mempengaruhi cara kamu berpikir tentang engineering.

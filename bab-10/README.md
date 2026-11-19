@@ -136,3 +136,21 @@ Semua alternatif ini lebih efisien dari VDOM untuk use case yang sesuai. Tapi me
 Semua framework sedang konvergen ke signals. Tapi tidak semua "signals" itu sama — dan memahami perbedaannya penting untuk membuat keputusan yang tepat.
 
 → [Bab 11: Signals — Konvergensi yang Terjadi Diam-Diam](../bab-11/README.md)
+
+
+---
+
+## VDOM di Era React Server Components
+
+React Server Components (RSC) mengubah cara kita memandang VDOM secara fundamental. Server Components tidak di-render ke Virtual DOM — mereka di-render ke format wire khusus (React Server Component Payload) yang dikirim ke browser.
+
+```
+Server Component → RSC Payload (tidak ada JS ke browser)
+Client Component → JavaScript + Virtual DOM (hydration seperti biasa)
+```
+
+Ini artinya VDOM sekarang bukan lagi arsitektur yang monolitik untuk seluruh aplikasi — melainkan tool yang dipakai selektif hanya untuk bagian yang interaktif. Komponen yang tidak butuh interaktivitas tidak butuh VDOM sama sekali.
+
+Ini adalah langkah React menuju paradigma yang lebih mirip Islands Architecture — tapi dari dalam framework React sendiri, bukan sebagai framework baru.
+
+**Ironi yang menarik:** React, yang mempopulerkan VDOM, kini sedang membangun jalan keluar dari VDOM untuk bagian aplikasi yang tidak memerlukannya.
