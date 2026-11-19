@@ -192,31 +192,31 @@ Course Evolusi Web adalah **esai teknis terstruktur** — tidak ada kode yang pe
 | MANIFEST.md | ✅ Done | 7 keyakinan dasar |
 | README.md | ✅ Done | Halaman depan diperbarui — promise baru, struktur 26 bab |
 | bab-01/ | ✅ Done | Pra-SPA: HTML dokumen, CGI, AJAX, jQuery, warisan |
-| bab-02/ | ⏳ Belum | Gelombang SPA pertama |
-| bab-03/ | ⏳ Belum | React & VDOM Revolution |
-| bab-04/ | ⏳ Belum | Fragmentasi ekosistem |
-| bab-05/ | ⏳ Belum | JavaScript substrate |
-| bab-06/ | ⏳ Belum | TypeScript |
-| bab-07/ | ⏳ Belum | Browser sebagai platform |
-| bab-08/ | ⏳ Belum | Runtime Wars |
-| bab-09/ | ⏳ Belum | Empat klaster paradigma |
-| bab-10/ | ⏳ Belum | VDOM |
-| bab-11/ | ⏳ Belum | Signals |
-| bab-12/ | ⏳ Belum | Compiler sebagai framework |
-| bab-13/ | ⏳ Belum | Resumability |
-| bab-14/ | ⏳ Belum | SSR, Islands, Streaming |
-| bab-15/ | ⏳ Belum | Meta-frameworks |
-| bab-16/ | ⏳ Belum | JAMstack |
-| bab-17/ | ⏳ Belum | MACH & Composable Architecture |
-| bab-18/ | ⏳ Belum | Edge-First Architecture |
-| bab-19/ | ⏳ Belum | BFF |
-| bab-20/ | ⏳ Belum | Micro-frontends |
-| bab-21/ | ⏳ Belum | Monolith vs distribusi |
-| bab-22/ | ⏳ Belum | Cara baca sinyal ekosistem |
-| bab-23/ | ⏳ Belum | Arsitektur defensible |
-| bab-24/ | ⏳ Belum | Spesialisasi vs generalisasi |
-| bab-25/ | ⏳ Belum | Peta menyeluruh semua stack |
-| bab-26/ | ⏳ Belum | Selanjutnya |
+| bab-02/ | ✅ Done | Gelombang SPA pertama: AngularJS, Backbone, Ember |
+| bab-03/ | ✅ Done | React: VDOM, JSX, unidirectional flow, Redux, Hooks |
+| bab-04/ | ✅ Done | Fragmentasi: mengapa banyak framework bisa eksis bersamaan |
+| bab-05/ | ✅ Done | JavaScript: 10 hari, type coercion, V8 JIT, warisan |
+| bab-06/ | ✅ Done | TypeScript: type erasure, structural typing, Zod |
+| bab-07/ | ✅ Done | Browser sebagai platform: Web APIs, CSS modern, Wasm |
+| bab-08/ | ✅ Done | Runtime Wars: Node/Deno/Bun/Workers, WinterCG |
+| bab-09/ | ✅ Done | Empat klaster diperluas + konvergensi signals |
+| bab-10/ | ✅ Done | VDOM: cara kerja, React Fiber, kapan tepat |
+| bab-11/ | ✅ Done | Signals: konvergensi, implementasi, TC39 proposal |
+| bab-12/ | ✅ Done | Compiler sebagai framework: Svelte Runes, Astro, SvelteKit |
+| bab-13/ | ✅ Done | Resumability: Qwik, partial hydration vs resumability |
+| bab-14/ | ✅ Done | SSR/Islands/Streaming: CSR/SSR/SSG/ISR/Islands/RSC |
+| bab-15/ | ✅ Done | Meta-frameworks: Next.js/Nuxt/SvelteKit/Analog |
+| bab-16/ | ✅ Done | JAMstack: filosofi, implementasi, batas, evolusi |
+| bab-17/ | ✅ Done | MACH: microservices, API-first, cloud-native, headless |
+| bab-18/ | ✅ Done | Edge-first: Workers, Durable Objects, constraint |
+| bab-19/ | ✅ Done | BFF: motivasi, tRPC, GraphQL, Next.js API routes |
+| bab-20/ | ✅ Done | Micro-frontends: Module Federation, kapan justified |
+| bab-21/ | ✅ Done | Monolith terhormat: modular monolith, strangler fig |
+| bab-22/ | ✅ Done | Cara baca sinyal: hype vs traction vs production-proven |
+| bab-23/ | ✅ Done | Arsitektur defensible: ADR, trade-off, komunikasi stakeholder |
+| bab-24/ | ✅ Done | Spesialisasi vs generalisasi: T/I/Pi shape, demand vs supply |
+| bab-25/ | ✅ Done | Peta menyeluruh: 6 peta referensi — klaster, rendering, stack |
+| bab-26/ | ✅ Done | Selanjutnya: signals, AI-native, Web Platform, prinsip relevan |
 
 ---
 
